@@ -1,0 +1,75 @@
+* Starting client
+* Connecting to master process on port 7400
+* Analyzing classpath: 
+  - /home/dimitri/Documents/GitHub/java-algorithms-implementation/target/classes
+  - /home/dimitri/.m2/repository/junit/junit/4.12/junit-4.12.jar
+  - /home/dimitri/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+* Finished analyzing classpath
+* Generating tests for class com.jwetherell.algorithms.mathematics.Distance
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 19:04:00.049 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /home/dimitri/Documents/GitHub/java-algorithms-implementation/.evosuite/evosuite-seeds/com.jwetherell.algorithms.mathematics.Distance.seed
+* Loaded 0 tests from /home/dimitri/Documents/GitHub/java-algorithms-implementation/.evosuite/evosuite-seeds/com.jwetherell.algorithms.mathematics.Distance.seed
+* Total number of test goals: 
+  - Line 14
+  - Branch 3
+  - Exception 0
+  - MutationFactory 158
+  - Output 9
+  - Method 3
+  - MethodNoException 3
+  - CBranchFitnessFactory 3
+* Using seed 1711839838228
+* Starting evolution
+* Search finished after 31s and 1216 generations, 309772 statements, best individual has fitness: 3.833333333333333
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 93%
+* Total number of goals: 14
+* Number of covered goals: 13
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 3
+* Number of covered goals: 3
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 100%
+* Total number of goals: 158
+* Number of covered goals: 158
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 67%
+* Total number of goals: 9
+* Number of covered goals: 6
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 3
+* Number of covered goals: 3
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 3
+* Number of covered goals: 3
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 100%
+* Total number of goals: 3
+* Number of covered goals: 3
+* Generated 10 tests with total length 22
+* Resulting test suite's coverage: 95% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 100%
+* Compiling and checking tests
+* Writing JUnit test case 'Distance_ESTest' to /home/dimitri/Documents/GitHub/java-algorithms-implementation/.evosuite/tmp_2024_03_30_18_37_43/tests
+* Done!
+

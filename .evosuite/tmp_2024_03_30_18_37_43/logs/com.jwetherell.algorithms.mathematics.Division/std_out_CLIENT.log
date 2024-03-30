@@ -1,0 +1,80 @@
+* Starting client
+* Connecting to master process on port 17521
+* Analyzing classpath: 
+  - /home/dimitri/Documents/GitHub/java-algorithms-implementation/target/classes
+  - /home/dimitri/.m2/repository/junit/junit/4.12/junit-4.12.jar
+  - /home/dimitri/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+* Finished analyzing classpath
+* Generating tests for class com.jwetherell.algorithms.mathematics.Division
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 18:47:49.088 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /home/dimitri/Documents/GitHub/java-algorithms-implementation/.evosuite/evosuite-seeds/com.jwetherell.algorithms.mathematics.Division.seed
+* Loaded 0 tests from /home/dimitri/Documents/GitHub/java-algorithms-implementation/.evosuite/evosuite-seeds/com.jwetherell.algorithms.mathematics.Division.seed
+* Total number of test goals: 
+  - Line 54
+  - Branch 60
+  - Exception 0
+  - MutationFactory 639
+  - Output 18
+  - Method 7
+  - MethodNoException 7
+  - CBranchFitnessFactory 60
+* Using seed 1711838867042
+* Starting evolution
+* Search finished after 84s and 4 generations, 3188 statements, best individual has fitness: 6.830426356589147
+* Writing sequences to pool
+* Minimizing test suite
+[MASTER] 18:49:40.277 [pool-2-thread-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+[MASTER] 18:49:40.277 [pool-2-thread-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 2 seconds more than allowed.
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 100%
+* Total number of goals: 54
+* Number of covered goals: 54
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 60
+* Number of covered goals: 60
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 5
+* Number of covered goals: 5
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 98%
+* Total number of goals: 639
+* Number of covered goals: 627
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 100%
+* Total number of goals: 18
+* Number of covered goals: 18
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 7
+* Number of covered goals: 7
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 7
+* Number of covered goals: 7
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 100%
+* Total number of goals: 60
+* Number of covered goals: 60
+* Generated 24 tests with total length 303
+* Resulting test suite's coverage: 100% (average coverage for all fitness functions)
+* Generating assertions
+[MASTER] 18:50:20.917 [pool-2-thread-1] WARN  SimpleMutationAssertionGenerator - Reached maximum time to generate assertions, aborting assertion generation
+* Resulting test suite's mutation score: 2%
+* Compiling and checking tests
+[MASTER] 18:50:20.950 [pool-2-thread-1] WARN  TimeController - Current phase JUNIT_CHECK could run up to 13s, but only 6s are left
+[MASTER] 18:50:24.478 [pool-2-thread-1] WARN  TimeController - Current phase WRITING_TESTS could run up to 13s, but only 2s are left
+* Writing JUnit test case 'Division_ESTest' to /home/dimitri/Documents/GitHub/java-algorithms-implementation/.evosuite/tmp_2024_03_30_18_37_43/tests
+* Done!
+

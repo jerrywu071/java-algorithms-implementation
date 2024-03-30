@@ -1,0 +1,75 @@
+* Starting client
+* Connecting to master process on port 5886
+* Analyzing classpath: 
+  - /home/dimitri/Documents/GitHub/java-algorithms-implementation/target/classes
+  - /home/dimitri/.m2/repository/junit/junit/4.12/junit-4.12.jar
+  - /home/dimitri/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+* Finished analyzing classpath
+* Generating tests for class com.jwetherell.algorithms.numbers.Complex
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 19:03:21.580 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /home/dimitri/Documents/GitHub/java-algorithms-implementation/.evosuite/evosuite-seeds/com.jwetherell.algorithms.numbers.Complex.seed
+* Loaded 0 tests from /home/dimitri/Documents/GitHub/java-algorithms-implementation/.evosuite/evosuite-seeds/com.jwetherell.algorithms.numbers.Complex.seed
+* Total number of test goals: 
+  - Line 23
+  - Branch 8
+  - Exception 0
+  - MutationFactory 161
+  - Output 22
+  - Method 8
+  - MethodNoException 8
+  - CBranchFitnessFactory 8
+* Using seed 1711839798183
+* Starting evolution
+* Search finished after 31s and 639 generations, 207490 statements, best individual has fitness: 11.25
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 100%
+* Total number of goals: 23
+* Number of covered goals: 23
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 8
+* Number of covered goals: 8
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 3
+* Number of covered goals: 3
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 100%
+* Total number of goals: 161
+* Number of covered goals: 161
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 50%
+* Total number of goals: 22
+* Number of covered goals: 11
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 8
+* Number of covered goals: 8
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 8
+* Number of covered goals: 8
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 100%
+* Total number of goals: 8
+* Number of covered goals: 8
+* Generated 16 tests with total length 36
+* Resulting test suite's coverage: 94% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 93%
+* Compiling and checking tests
+* Writing JUnit test case 'Complex_ESTest' to /home/dimitri/Documents/GitHub/java-algorithms-implementation/.evosuite/tmp_2024_03_30_18_37_43/tests
+* Done!
+

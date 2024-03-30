@@ -1,0 +1,77 @@
+* Starting client
+* Connecting to master process on port 19583
+* Analyzing classpath: 
+  - /home/dimitri/Documents/GitHub/java-algorithms-implementation/target/classes
+  - /home/dimitri/.m2/repository/junit/junit/4.12/junit-4.12.jar
+  - /home/dimitri/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+* Finished analyzing classpath
+* Generating tests for class com.jwetherell.algorithms.data_structures.Matrix
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 18:37:50.630 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /home/dimitri/Documents/GitHub/java-algorithms-implementation/.evosuite/evosuite-seeds/com.jwetherell.algorithms.data_structures.Matrix.seed
+* Loaded 0 tests from /home/dimitri/Documents/GitHub/java-algorithms-implementation/.evosuite/evosuite-seeds/com.jwetherell.algorithms.data_structures.Matrix.seed
+* Total number of test goals: 
+  - Line 236
+  - Branch 164
+  - Exception 0
+  - MutationFactory 658
+  - Output 64
+  - Method 16
+  - MethodNoException 16
+  - CBranchFitnessFactory 164
+* Using seed 1711838267549
+* Starting evolution
+* Search finished after 157s and 168 generations, 109745 statements, best individual has fitness: 205.68646232439335
+* Writing sequences to pool
+* Minimizing test suite
+[MASTER] 18:40:56.357 [pool-2-thread-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 76%
+* Total number of goals: 236
+* Number of covered goals: 179
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 81%
+* Total number of goals: 164
+* Number of covered goals: 133
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 26
+* Number of covered goals: 26
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 86%
+* Total number of goals: 658
+* Number of covered goals: 567
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 47%
+* Total number of goals: 64
+* Number of covered goals: 30
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 16
+* Number of covered goals: 16
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 88%
+* Total number of goals: 16
+* Number of covered goals: 14
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 80%
+* Total number of goals: 164
+* Number of covered goals: 131
+* Generated 101 tests with total length 3393
+* Resulting test suite's coverage: 82% (average coverage for all fitness functions)
+* Generating assertions
+[MASTER] 18:41:14.153 [pool-2-thread-1] WARN  SimpleMutationAssertionGenerator - Assertion minimization is taking too long (0.7027083333333334% of time used, but only 10/101 tests minimized), falling back to using all assertions
+* Resulting test suite's mutation score: 10%
+* Compiling and checking tests
+* Writing JUnit test case 'Matrix_ESTest' to /home/dimitri/Documents/GitHub/java-algorithms-implementation/.evosuite/tmp_2024_03_30_18_37_43/tests
+* Done!
+

@@ -1,0 +1,78 @@
+* Starting client
+* Connecting to master process on port 4145
+* Analyzing classpath: 
+  - /home/dimitri/Documents/GitHub/java-algorithms-implementation/target/classes
+  - /home/dimitri/.m2/repository/junit/junit/4.12/junit-4.12.jar
+  - /home/dimitri/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+* Finished analyzing classpath
+* Generating tests for class com.jwetherell.algorithms.mathematics.Permutations
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 18:54:57.646 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /home/dimitri/Documents/GitHub/java-algorithms-implementation/.evosuite/evosuite-seeds/com.jwetherell.algorithms.mathematics.Permutations.seed
+* Loaded 0 tests from /home/dimitri/Documents/GitHub/java-algorithms-implementation/.evosuite/evosuite-seeds/com.jwetherell.algorithms.mathematics.Permutations.seed
+* Total number of test goals: 
+  - Line 47
+  - Branch 18
+  - Exception 0
+  - MutationFactory 349
+  - Output 9
+  - Method 2
+  - MethodNoException 2
+  - CBranchFitnessFactory 18
+* Using seed 1711839295678
+* Starting evolution
+* Search finished after 50s and 5 generations, 3143 statements, best individual has fitness: 16.642857142857142
+* Writing sequences to pool
+[MASTER] 18:55:47.282 [pool-2-thread-1] WARN  TimeController - Phase SEARCH lasted too long, 4 seconds more than allowed.
+* Minimizing test suite
+[MASTER] 18:55:56.802 [pool-2-thread-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 98%
+* Total number of goals: 47
+* Number of covered goals: 46
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 18
+* Number of covered goals: 18
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 6
+* Number of covered goals: 6
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 98%
+* Total number of goals: 349
+* Number of covered goals: 343
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 22%
+* Total number of goals: 9
+* Number of covered goals: 2
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 67%
+* Total number of goals: 18
+* Number of covered goals: 12
+* Generated 11 tests with total length 152
+* Resulting test suite's coverage: 86% (average coverage for all fitness functions)
+* Generating assertions
+[MASTER] 18:56:03.985 [pool-2-thread-1] WARN  SimpleMutationAssertionGenerator - Reached maximum time to generate assertions, aborting assertion generation
+* Resulting test suite's mutation score: 5%
+* Compiling and checking tests
+* Writing JUnit test case 'Permutations_ESTest' to /home/dimitri/Documents/GitHub/java-algorithms-implementation/.evosuite/tmp_2024_03_30_18_37_43/tests
+* Done!
+
